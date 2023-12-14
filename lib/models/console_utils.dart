@@ -31,7 +31,7 @@ class ConsoleUtils {
       return double.parse(value);
     } catch (e) {
       if (value == sair) {
-        exit(0);
+        return null;
       } else {
         // se não conseguir retornara null/nulo
         print("Digite (S) para sair ou a nota do aluno");
